@@ -1,0 +1,14 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/MTBBarcodeScanner" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftProtobuf" "${PODS_CONFIGURATION_BUILD_DIR}/Toast" "${PODS_CONFIGURATION_BUILD_DIR}/barcode_scan" "${PODS_CONFIGURATION_BUILD_DIR}/device_info" "${PODS_CONFIGURATION_BUILD_DIR}/fluttertoast" "${PODS_CONFIGURATION_BUILD_DIR}/path_provider" "${PODS_CONFIGURATION_BUILD_DIR}/searchable_dropdown" "${PODS_CONFIGURATION_BUILD_DIR}/shared_preferences" "${PODS_CONFIGURATION_BUILD_DIR}/sqflite" "${PODS_ROOT}/../Flutter"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FMDB/FMDB.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftProtobuf/SwiftProtobuf.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Toast/Toast.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/barcode_scan/barcode_scan.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/device_info/device_info.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/fluttertoast/fluttertoast.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/path_provider/path_provider.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/searchable_dropdown/searchable_dropdown.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/shared_preferences/shared_preferences.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/sqflite/sqflite.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -l"sqlite3" -framework "AVFoundation" -framework "FMDB" -framework "Flutter" -framework "MTBBarcodeScanner" -framework "QuartzCore" -framework "SwiftProtobuf" -framework "Toast" -framework "barcode_scan" -framework "device_info" -framework "fluttertoast" -framework "path_provider" -framework "searchable_dropdown" -framework "shared_preferences" -framework "sqflite"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

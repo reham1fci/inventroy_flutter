@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: me.dm7.barcodescanner:core:1.9.13@aar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/76ea6c9116b0ec81e0c6e783568047af/jetified-core-1.9.13/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
